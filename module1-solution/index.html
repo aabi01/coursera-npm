@@ -13,14 +13,15 @@
   <body ng-app="LunchChecker">
     <div class="container" ng-controller="LunchCheckerController">
      <h1>Lunch Checker</h1>
-
+     <div class="col-lg-12">Empty Items such as , , are not considered while counting</div>
          <div class="form-group col-lg-6">
              <input id="lunch-menu" type="text"
              placeholder="list comma separated dishes you usually have for lunch"
              class="form-control" ng-model="items">
              <span>{{msg}}</span>
          </div>
-         <div class="form-group">
+         <div class="form-group col-lg-6">
+           
            <button class="btn btn-default" ng-click="checkLunch()">Check If Too Much</button>
          </div>
          <div class="form-group message">
