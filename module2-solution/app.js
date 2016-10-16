@@ -41,6 +41,14 @@ function ShoppingListCheckoffService(){
         {
             itemName: 'Chips',
             itemQuantity: '10 packs'
+        },
+        {
+            itemName: 'Snack',
+            itemQuantity: '5 packs'
+        },
+        {
+            itemName: 'Cookies',
+            itemQuantity: '10 packs'
         }
     ];
     
